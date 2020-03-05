@@ -9,11 +9,27 @@ import Routers from "./components/Basic components/Routers";
 
 function App() {
     return (
-        <div className="App">
+        <div>
             <BrowserRouter>
                 <Provider store={store}>
-                    <Header/>
-                    <Routers/>
+                    <main className='wrapper'>
+                        <div className='blur'></div>
+                        <div className='App'>
+                            <div>
+                                <div className='HeaderPart'>
+                                    <div className='Title'>
+                                        Logo
+                                    </div>
+                                </div>
+                                <div className='Header'>
+                                    <Header/>
+                                </div>
+                            </div>
+                            <div className='TestTable'>
+                                <Routers/>
+                            </div>
+                        </div>
+                    </main>
                 </Provider>
             </BrowserRouter>
         </div>
