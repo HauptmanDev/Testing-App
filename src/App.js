@@ -15,11 +15,9 @@ function App() {
                     <main className='wrapper'>
                         <div className='blur'></div>
                         <div className='App'>
-                            <div>
-                                <div className='HeaderPart'>
-                                    <div className='Title'>
-                                        Logo
-                                    </div>
+                            <div className='HeaderPart'>
+                                <div className='Title'>
+                                   Тест IT-incubator
                                 </div>
                                 <div className='Header'>
                                     <Header/>

@@ -1,11 +1,13 @@
-import './Header.module.css';
+import style from './Header.module.css';
 import React from 'react'
 
 
 function Header() {
     return (
-        <div className="Header">
-
+        <div className={style.menu}>
+            <span>Регистрация</span>
+            <span>Авторизация</span>
+            <span>Контакты</span>
         </div>
     );
 }
