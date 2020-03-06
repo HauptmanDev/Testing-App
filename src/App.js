@@ -17,7 +17,7 @@ function App() {
                         <div className='App'>
                             <div className='HeaderPart'>
                                 <div className='Title'>
-                                   Тест IT-incubator
+                                    Тест IT-incubator
                                 </div>
                                 <div className='Header'>
                                     <Header/>
