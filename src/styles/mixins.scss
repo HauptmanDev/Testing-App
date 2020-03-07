@@ -3,7 +3,7 @@
 @mixin block() {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0,0,0,0.30);
+  background-color: rgba(0,0,0,0.8);
   width: $default-block-width;
   height: $default-block-height;
   margin: $default-block-margin;
