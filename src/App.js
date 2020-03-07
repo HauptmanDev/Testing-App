@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
 import {BrowserRouter} from "react-router-dom";
-import store from "./components/store/store";
+import store from "./store/store";
 import {Provider} from "react-redux";
-import Header from "./components/Header component/Header";
-import Routers from "./components/Basic components/Routers";
+import Header from "./Presentation_components/Header component/Header";
+import Routers from "./Presentation_components/Basic components/Routers";
 
 
 function App() {

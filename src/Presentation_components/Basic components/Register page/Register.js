@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import FormsWrapper from "./FormsWrapper";
+import FormsWrapper from "../Common_components/FormsWrapper";
 
 const RegisterPage = () => {
     const { handleSubmit, register, errors } = useForm();
