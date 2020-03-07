@@ -1,0 +1,11 @@
+@import './variables';
+
+@mixin block() {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.30);
+  width: $default-block-width;
+  height: $default-block-height;
+  margin: $default-block-margin;
+  padding: $default-block-padding;
+}
