@@ -3,7 +3,6 @@
   min-width: 100vw;
   min-height: 100vh;
   display: flex;
-  overflow-y: auto;
 }
 
 .App,
@@ -39,26 +38,30 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 20vh;
+  height: 10vh;
+  width: 100vw;
 }
 
 .Title {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Kanit', sans-serif;
-  text-align: left;
+  /*text-align: left;*/
   text-shadow: 0 0 5px rgba(0, 0, 0, .5);
-  width: 50vw;
+  width: 30vw;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .Header {
-  width: 50vw;
+  width: 70vw;
+  height: 10vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  /*border: 1px solid black;*/
 }
 
 .TestTable {
