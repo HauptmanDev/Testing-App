@@ -1,13 +1,20 @@
-import style from './Header.module.css';
 import React from 'react'
+import style from './Header.module.css';
+import {NavLink} from "react-router-dom";
 
 
 function Header() {
     return (
         <div className={style.menu}>
-            <span>Регистрация</span>
-            <span>Авторизация</span>
-            <span>Контакты</span>
+            <div className={style.element}>
+                <NavLink className={style.link} to='/register'>Регистрация</NavLink>
+            </div>
+            <div className={style.element}>
+                <NavLink className={style.link} to='/auth'>Авторизация</NavLink>
+            </div>
+            <div className={style.element}>
+                <NavLink className={style.link} to='/contacts'>Контакты</NavLink>
+            </div>
         </div>
     );
 }
