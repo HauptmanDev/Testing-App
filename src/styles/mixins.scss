@@ -3,9 +3,32 @@
 @mixin block() {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   width: $default-block-width;
-  height: $default-block-height;
+  min-height: $default-block-height;
   margin: $default-block-margin;
   padding: $default-block-padding;
+}
+
+@mixin input() {
+  width: 190px;
+  color: white;
+  border: none;
+  padding: 5px;
+  background: transparent;
+  border-bottom: 1px solid white;
+  margin: 5px 0;
+  &:focus {
+    background: black;
+    outline: none;
+    border-bottom: 1px solid fuchsia;
+  }
+}
+
+@mixin button() {
+  align-self: flex-end;
+  border: none;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 5px;
 }
