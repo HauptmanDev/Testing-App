@@ -1,14 +1,17 @@
-import style from './Auth.module.css';
 import React from 'react'
+import FormsWrapper from "../Common_components/FormsWrapper";
+import FormTitle from "../Common_components/FormTitle";
+import AuthForm from "./AuthForm";
 
 
 function AuthPage() {
     return (
-        <div className={style.menu}>
-            <span>Регистрация</span>
-            <span>Авторизация</span>
-            <span>Контакты</span>
-        </div>
+        <>
+            <FormsWrapper>
+                <FormTitle title={'Авторизация'}/>
+                <AuthForm/>
+            </FormsWrapper>
+        </>
     );
 }
 
