@@ -1,6 +1,6 @@
 import React from "react";
 import FormsWrapper from "../Common_components/FormsWrapper";
-import RegisterForm from "./RegisterForm"
+import RegisterForm from "./register-UI/RegisterForm"
 import FormTitle from "../Common_components/FormTitle"
 
 const RegisterPage = () => {

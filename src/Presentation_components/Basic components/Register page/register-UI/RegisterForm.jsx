@@ -4,8 +4,10 @@ import style from "./RegisterForm.module.scss"
 
 const RegisterForm = () => {
     const {handleSubmit, register, errors} = useForm();
+
     const [dataObj, setDataPerson] = useState();
     // const [successRegister, setStatusRegister] = useState(false);
+
     const onSubmit = values => {
         if (values.firstPassword !== values.secondPassword) {
             alert('Пароли не совпадают')
