@@ -4,11 +4,11 @@ import style from "./AuthForm.module.scss"
 
 const AuthForm = () => {
     const {handleSubmit, register, errors} = useForm();
-    const [dataObj, setDataPerson] = useState();
+    // const [dataObj, setDataPerson] = useState();
     // const [successRegister, setStatusRegister] = useState(false);
     const onSubmit = values => {
             console.log(values);
-            setDataPerson(values)
+            // setDataPerson(values)
     };
 
     return (

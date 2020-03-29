@@ -1,5 +1,5 @@
 import {initialState} from "./registerInitialState";
-import {REGISTER_ERROR, REGISTER_USER_DATA} from "./registerAtions";
+import {REGISTER_ERROR, REGISTER_USER_DATA, SUCCESS_REGISTER} from "./registerAtions";
 
 
 const registerReducer = (state = initialState, action) => {
@@ -13,6 +13,11 @@ const registerReducer = (state = initialState, action) => {
             return {
                 ...state,
                 errorMessage: action.errorMessage
+            };
+        case SUCCESS_REGISTER :
+            return {
+                ...state,
+                registerSuccess: action.status
             };
         default:
             return state;
